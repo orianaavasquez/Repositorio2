@@ -10,7 +10,7 @@ def test_hello_world():
 
 def test_get_minimum_1():
     resultado = mn.get_minimum([3,1,3])
-    assert resultado is 1
+    assert resultado == 1
 
 def test_get_minimum_2():
     resultado = mn.get_minimum([3.0,1,-9.2,0])
