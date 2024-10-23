@@ -1,6 +1,12 @@
 #include <stdio.h>
-int main
+
+int min(int x, int y) {
+    return x<x?x:y;
+}
+
+int main()
 {
-printf("Hola mundo");
+
+    printf("Hola mundo");
 return 0;
 }
